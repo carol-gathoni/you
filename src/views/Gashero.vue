@@ -1,15 +1,14 @@
+
 <template>
-  <div class="gashero">
-    <h1>ITS EASY!!!</h1>
+  <div>
+    <photo></photo>
   </div>
 </template>
-<style scoped>
-.gashero {
-  margin-left: 155px;
-}
-@media only screen and (max-width: 991px) {
-  .gashero {
-    margin-left: 0px;
-  }
-}
-</style>
+
+
+<script>
+import photo from "../components/photo.vue";
+export default {
+  components: { photo },
+};
+</script>

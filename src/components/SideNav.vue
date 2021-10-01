@@ -27,11 +27,12 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: teal;
+  background-color: gray;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   width: 150px;
+  margin-top: 3px;
 }
 
 .sidenav a {
@@ -56,20 +57,22 @@ body {
   }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 769px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .sidenav {
     display: block;
   }
 }
-@media only screen and (min-width: 991px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 769px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 192dpi) {
   .sidenav {
     display: block;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
   .sidenav {
     display: none;
   }
 }
 </style>
+
+

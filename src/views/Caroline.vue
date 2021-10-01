@@ -15,9 +15,10 @@ export default {
 
 <style scoped>
 .caroline {
-  margin-left: 155px;
+  margin-left: 152px;
+  margin-top: 70px;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 769px) {
   .caroline {
     margin-left: 0px;
   }

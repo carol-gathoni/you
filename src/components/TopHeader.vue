@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="dark" variant="secondary">
+  <div class="header">
+    <b-navbar toggleable="md" type="dark" variant="secondary">
       <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -57,29 +57,38 @@ export default {};
 #nav a.router-link-exact-active {
   color: white;
 }
-@media only screen and (min-width: 992px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 769px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   #nav-collapse {
     display: none;
+    padding: 0px;
   }
   #myNav {
     display: none;
+    padding: 400px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 769px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 192dpi) {
   #nav-collapse {
     display: none;
   }
   #myNav {
     display: none;
+    padding: 100px;
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
   #nav-collapse {
     display: block;
   }
   #myNav {
     display: block;
   }
+}
+.header {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
 }
 </style>

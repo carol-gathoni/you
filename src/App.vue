@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <top-header class="navHeader"></top-header>
-      <side-nav class="sideNav"></side-nav>
-
+      <top-header class="navHeader alldiv"></top-header>
+      <side-nav class="sideNav alldiv"></side-nav>
       <!--<router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
       -->
@@ -35,7 +34,7 @@ export default {
 }
 
 #nav {
-  padding: 2px;
+  padding: 1px;
   a {
     font-weight: bold;
     color: #2c3e50;
@@ -49,7 +48,12 @@ export default {
 .sideNav {
   margin-top: 60px;
 }
+.alldiv {
+  position: relative;
+}
 </style>
+
+
 
 
 
